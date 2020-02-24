@@ -1,11 +1,11 @@
-#include "widget.h"
+#include "TInterface.h"
+
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    Widget w;
+    TInterface w;
     w.show();
-
     return a.exec();
 }
